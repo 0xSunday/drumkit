@@ -1,119 +1,129 @@
-body {
-    text-align: center;
-    background-color: #313842;
-    background: #6979ad;
-    background: -webkit-linear-gradient(to right, #975959, #5a7ff8);
-    background: linear-gradient(to right, #bd7070, #6679b8);
-}
-
-h1 {
-    font-size: 5rem;
-    color: #DBEDF3;
-    font-family: "Arvo", cursive;
-    text-shadow: 3px 0 #DA0463;
-}
-
-footer {
-    color: #DBEDF3;
-    font-family: sans-serif;
-}
-
-.a {
-    background-image: url('images/tom1.png');
-}
-
-.s {
-    background-image: url('images/tom2.png');
-}
-
-.d {
-    background-image: url('images/tom3.png');
-}
-
-.f {
-    background-image: url('images/tom4.png');
-}
-
-.j {
-    background-image: url('images/crash.png');
-}
-
-.k {
-    background-image: url('images/kick.png');
-}
-
-.l {
-    background-image: url('images/snare.png');
-}
-
-.set {
-    margin: 10% auto;
-}
-
-.game-over {
-    background-color: red;
-    opacity: 0.8;
-}
-
-.pressed {
-    box-shadow: 0 3px 4px 0 #DBEDF3;
-    opacity: 0.5;
-}
-
-.red {
-    color: red;
-}
-
-.drum {
-    outline: none;
-    border: 10px solid #404B69;
-    font-size: 5rem;
-    font-family: 'Arvo', cursive;
-    line-height: 2;
-    font-weight: 900;
-    color: #DA0463;
-    text-shadow: 3px 0 #DBEDF3;
-    border-radius: 15px;
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    text-align: center;
-    margin: 10px;
-    background-color: white;
-}
-
-.social-media {
-    margin: 3% 4%;
-    size: 5x;
-}
-
-.social-media:hover {
-    color: rgb(48, 26, 63);
-    transform: social-media(2);
-}
-
-.last-lines {
-    text-align: center;
-    padding-bottom: 3%;
-}
-
-@media only screen and (max-width: 420px) {
+    body {
+        text-align: center;
+        background-color: #313842;
+        background: #6979ad;
+        background: -webkit-linear-gradient(to right, #975959, #5a7ff8);
+        background: linear-gradient(to right, #bd7070, #6679b8);
+    }
+    
     h1 {
-        font-size: 3rem;
+        font-size: 5rem;
+        color: #DBEDF3;
+        font-family: "Arvo", cursive;
+        text-shadow: 3px 0 #DA0463;
     }
-    .drum {
-        width: 130px;
-        height: 130px;
+    
+    footer {
+        color: #DBEDF3;
+        font-family: sans-serif;
     }
-    .j,
-    .k,
+    
+    .a {
+        background-image: url('images/tom1.png');
+    }
+    
+    .s {
+        background-image: url('images/tom2.png');
+    }
+    
+    .d {
+        background-image: url('images/tom3.png');
+    }
+    
+    .f {
+        background-image: url('images/tom4.png');
+    }
+    
+    .j {
+        background-image: url('images/crash.png');
+    }
+    
+    .k {
+        background-image: url('images/kick.png');
+    }
+    
     .l {
-        height: 160px;
+        background-image: url('images/snare.png');
     }
-    h1 {
-        font-size: 3rem;
+    
+    .set {
+        margin: 10% auto;
     }
-    #title {
-        margin-top: -2%;
+    
+    .game-over {
+        background-color: red;
+        opacity: 0.8;
     }
-}
+    
+    .pressed {
+        box-shadow: 0 3px 4px 0 #DBEDF3;
+        opacity: 0.5;
+    }
+    
+    .red {
+        color: red;
+    }
+    
+    .drum {
+        outline: none;
+        border: 10px solid #404B69;
+        font-size: 5rem;
+        font-family: 'Arvo', cursive;
+        line-height: 2;
+        font-weight: 900;
+        color: #DA0463;
+        text-shadow: 3px 0 #DBEDF3;
+        border-radius: 15px;
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        margin: 10px;
+        background-color: white;
+    }
+    
+    .social-media {
+        margin: 4% 5%;
+    }
+    
+    .social-media:hover {
+        color: rgb(48, 26, 63);
+        transform: social-media(2);
+    }
+    
+    .last-lines {
+        text-align: center;
+        padding-bottom: 3%;
+    }
+    
+    @media screen and (max-device-width: 450px) {
+        h1 {
+            font-size: 9rem;
+        }
+        .body {
+            font-size: 3rem;
+        }
+        .drum {
+            width: 400px;
+            height: 400px;
+            font-size: 15rem;
+            line-height: 1;
+            border: 20px solid #2f3950;
+            font-weight: 900;
+            color: #a14169;
+            text-shadow: 5px 0 #290726;
+            display: inline-block;
+            text-align: center;
+            margin: 10px;
+            padding-top: -1%;
+            background-color: rgb(233, 214, 214);
+        }
+        .last-lines {
+            text-align: center;
+            font-size: 3rem;
+            padding-bottom: 3%;
+        }
+        .fa-3x {
+            font-size: 6rem;
+        }
+    }
