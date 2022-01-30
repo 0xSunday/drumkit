@@ -104,18 +104,17 @@
             font-size: 3rem;
         }
         .drum {
-            width: 400px;
-            height: 400px;
+            width: 330px;
+            height: 300px;
             font-size: 15rem;
             line-height: 1;
             border: 20px solid #2f3950;
-            font-weight: 900;
+            font-weight: 800;
             color: #a14169;
-            text-shadow: 5px 0 #290726;
+            text-shadow: 5px 0 #be7cb9;
             display: inline-block;
             text-align: center;
             margin: 10px;
-            padding-top: -1%;
             background-color: rgb(233, 214, 214);
         }
         .last-lines {
@@ -124,6 +123,6 @@
             padding-bottom: 3%;
         }
         .fa-3x {
-            font-size: 6rem;
+            font-size: 8rem;
         }
     }
